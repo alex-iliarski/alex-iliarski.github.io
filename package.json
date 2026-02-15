@@ -1,0 +1,31 @@
+{
+  "name": "alex-iliarski.github.io",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-iliarski/alex-iliarski.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/alex-iliarski/alex-iliarski.github.io/issues"
+  },
+  "homepage": "https://github.com/alex-iliarski/alex-iliarski.github.io#readme",
+  "dependencies": {
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.4",
+    "vite": "^7.3.1"
+  }
+}

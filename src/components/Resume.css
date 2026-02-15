@@ -1,0 +1,189 @@
+.resume {
+  flex: 1;
+  padding: 3rem 2rem;
+}
+
+.resume-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+}
+
+.resume-section {
+  margin-bottom: 2.5rem;
+}
+
+.resume-section:last-child {
+  margin-bottom: 0;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  color: #667eea;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 3px solid #667eea;
+  font-weight: 700;
+}
+
+.summary-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact-item {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-label {
+  font-weight: 600;
+  color: #333;
+}
+
+.contact-value {
+  color: #555;
+}
+
+.experience-item {
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.experience-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.job-title {
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: 600;
+  margin: 0;
+}
+
+.job-period {
+  color: #667eea;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.company-name {
+  font-size: 1.05rem;
+  color: #666;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.job-description {
+  list-style: none;
+  padding-left: 0;
+}
+
+.job-description li {
+  padding-left: 1.5rem;
+  margin-bottom: 0.5rem;
+  position: relative;
+  color: #555;
+  line-height: 1.5;
+}
+
+.job-description li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: #667eea;
+  font-weight: bold;
+}
+
+.education-item {
+  margin-bottom: 1.5rem;
+}
+
+.education-item:last-child {
+  margin-bottom: 0;
+}
+
+.degree {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.school {
+  color: #666;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.year {
+  color: #888;
+  font-size: 0.95rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-tag {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(102, 126, 234, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.skill-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.4);
+}
+
+@media (max-width: 768px) {
+  .resume {
+    padding: 2rem 1rem;
+  }
+
+  .resume-container {
+    padding: 2rem 1.5rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .experience-header {
+    flex-direction: column;
+  }
+
+  .job-title {
+    font-size: 1.15rem;
+  }
+}
