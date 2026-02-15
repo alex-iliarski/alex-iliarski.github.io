@@ -142,7 +142,7 @@ Feel free to reach out if you have any questions or suggestions!
 
 - **Email**: your.email@example.com
 - **GitHub**: [@alex-iliarski](https://github.com/alex-iliarski)
-- **LinkedIn**: [Your Profile](https://linkedin.com/in/yourprofile)
+- **LinkedIn**: [Your Profile](https://linkedin.com/in/alex-iliarski)
 
 ---
 
