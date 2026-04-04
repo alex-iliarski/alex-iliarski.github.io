@@ -37,13 +37,16 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <h1 class="hero-title">Hi, I'm <span class="highlight">Alex Iliarski</span></h1>
-                <p class="hero-subtitle">Software Engineer | AI/ML Enthusiast | Problem Solver</p>
-                <p class="hero-description">Building innovative solutions and turning ideas into reality through code.</p>
-                <div class="hero-buttons">
-                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                    <a href="assets/Copy%20of%20Alex%20Iliarski%20Resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+                <div class="hero-text">
+                    <h1 class="hero-title">Hi, I'm <span class="highlight">Alex Iliarski</span></h1>
+                    <p class="hero-subtitle">Software Engineer | AI/ML Enthusiast | Problem Solver</p>
+                    <p class="hero-description">Building innovative solutions and turning ideas into reality through code.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="assets/Copy%20of%20Alex%20Iliarski%20Resume.pdf" class="btn btn-secondary" download>Download Resume</a>
+                    </div>
                 </div>
+                <img src="assets/profile_photo.jpg" alt="Alex Iliarski profile photo" class="hero-profile-photo">
             </div>
         </div>
     </section>
@@ -72,14 +75,14 @@
                         <p class="timeline-company">PAR Technology</p>
                         <p class="timeline-date">May 2025 - Present | St. Louis Park, MN</p>
                         <ul class="timeline-description">
-                            <li>Built a multi-turn conversational AI assistant for restaurant operations analytics using LangGraph, Azure OpenAI, and a RAG pipeline that generates and executes SQL against multi-tenant SQL Server warehouses.</li>                 
-                            <li>Designed LangGraph conversation memory backed by a PostgreSQL server, enabling persistent multi-turn context management.</li>
-                            <li>Implemented unit testing against 'golden' datasets to ensure model accuracy and enable quick feedback loops on improving system prompts.</li>
-                            <li>Integrated Datadog LLM observability throughout the LangGraph implementation.</li>
-                            <li>Enabled frontend to be integrated as a Webpack Module Federation remote and implemented a special authentication path allowing for a seamless integration into another web application.</li>
-                            <li>Maintained, updated, and improved SQL Server Stored Procedures to enhance performance and maintainability.</li>
-                            <li>Designed and implemented frontend components using React and TypeScript.</li>
-                            <li>Authored technical documentation, ADRs, and code reviews.</li>
+                            <li>Built a multi-turn conversational AI assistant for restaurant operations analytics using LangGraph, Azure OpenAI, and a RAG pipeline, enabling natural language querying over multi-tenant SQL Server data warehouses.</li>
+                            <li>Designed a memory architecture using LangGraph + PostgreSQL to support persistent, context-aware conversations.</li>
+                            <li>Implemented automated evaluation using “golden” datasets, establishing a feedback loop for prompt tuning and model performance improvements.</li>
+                            <li>Designed guardrails for a production text-to-SQL system, including prompt filtering and query constraints and validation to ensure safe and authorized access across multi-tenant databases.</li>
+                            <li>Integrated Datadog LLM observability (traces, latency, token usage), improving debugging and monitoring of production AI workflows.</li>
+                            <li>Built and integrated React + TypeScript frontend components, deploying via Webpack Module Federation for seamless embedding into a host application, and designed and implemented secure authentication flows for cross-application integration.</li>
+                            <li>Optimized and maintained SQL Server stored procedures, improving performance and scalability of workloads.</li>
+                            <li>Authored technical documentation, architecture decision records (ADRs), and contributed to code reviews across the team.</li>
                         </ul>
                     </div>
                 </div>
